@@ -1,8 +1,34 @@
 {
-  "name": "nextfortress",
-  "version": "0.1.0",
-  "private": true,
+  "name": "next-fortress-template",
+  "version": "1.0.0",
+  "description": "Enterprise-ready Next.js template with TypeScript, testing, and CI/CD",
+  "private": false,
   "type": "module",
+  "keywords": [
+    "nextjs",
+    "typescript",
+    "react",
+    "template",
+    "tailwindcss",
+    "vitest",
+    "eslint",
+    "enterprise",
+    "ci-cd",
+    "testing"
+  ],
+  "author": {
+    "name": "33SLueck",
+    "url": "https://github.com/33SLueck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/33SLueck/next-fortress.git"
+  },
+  "homepage": "https://github.com/33SLueck/next-fortress#readme",
+  "bugs": {
+    "url": "https://github.com/33SLueck/next-fortress/issues"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

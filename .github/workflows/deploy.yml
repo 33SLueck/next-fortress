@@ -31,7 +31,8 @@ jobs:
 
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
-        if: false # Disabled until secrets are configured
+        # Remove this condition once secrets are configured
+        if: false
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
@@ -42,8 +43,13 @@ jobs:
       - name: Deployment info
         run: |
           echo "🚀 Build completed successfully!"
-          echo "📝 To enable Vercel deployment, add these secrets to your repository:"
+          echo ""
+          echo "📝 To enable automatic Vercel deployment:"
+          echo "1. Create a Vercel project for your repository"
+          echo "2. Add these secrets to your GitHub repository:"
           echo "   - VERCEL_TOKEN: Your Vercel token"
           echo "   - VERCEL_ORG_ID: Your Vercel organization ID"  
           echo "   - VERCEL_PROJECT_ID: Your Vercel project ID"
-          echo "   Then remove the 'if: false' condition from the deploy step."
+          echo "3. Change 'if: false' to 'if: true' in the deploy step above"
+          echo ""
+          echo "📚 See TEMPLATE_SETUP.md for detailed instructions"

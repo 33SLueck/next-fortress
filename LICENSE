@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Next Fortress
+Copyright (c) 2025 33SLueck
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Template Usage
+
+This template is designed to be used as a starting point for new projects.
+When using this template:
+
+1. You are free to modify, distribute, and use it for any purpose
+2. Please consider giving credit to the original template in your README
+3. The license applies to the template code, not to projects created from it
+4. Projects created from this template are not required to maintain this license
+
+## Attribution (Optional)
+
+If you find this template helpful, consider adding a note in your project:
+
+```
+This project was bootstrapped with [Next Fortress Template](https://github.com/33SLueck/next-fortress)
+```

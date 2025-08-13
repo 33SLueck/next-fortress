@@ -1,83 +1,106 @@
-# Next Fortress - Enterprise Next.js Template
+# 🏰 Next Fortress - Enterprise Next.js Template
 
-![CI/CD Pipeline](https://github.com/username/nextfortress/actions/workflows/ci.yml/badge.svg)
+![CI/CD Pipeline](https://github.com/33SLueck/next-fortress/actions/workflows/ci.yml/badge.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black)
 
-## 🚀 Enterprise-Grade Next.js Template with Bulletproof Quality Assurance
+> 🚀 **Production-ready Next.js template with enterprise-grade tooling and quality assurance**
 
-A modern, production-ready Next.js template with comprehensive tooling for enterprise development. Features TypeScript, Tailwind CSS, comprehensive testing, automated quality checks, and CI/CD pipeline.
+## � About This Template
 
-## ✨ Features
+**Next Fortress** is a battle-tested, enterprise-ready Next.js template designed for rapid development of high-quality web applications. It comes pre-configured with modern tooling, automated quality checks, and deployment pipelines.
 
-### 🏗️ Core Stack
+## ✨ What's Included
 
-- **Next.js 15** - React framework with App Router
-- **TypeScript** - Type safety and enhanced developer experience
-- **React 19** - Latest React features
-- **Tailwind CSS 4** - Utility-first CSS framework
+### 🏗️ **Core Stack**
 
-### 🧪 Testing & Quality Assurance
+- **Next.js 15** with App Router
+- **TypeScript** for type safety
+- **React 19** latest features
+- **Tailwind CSS** for styling
 
-- **Vitest** - Fast unit testing framework
-- **React Testing Library** - Component testing utilities
-- **ESLint** - Code linting with enterprise rules
-- **Prettier** - Code formatting
-- **TypeScript** - Static type checking
+### 🧪 **Quality Assurance**
 
-### 🔧 Developer Experience
+- **Vitest** + React Testing Library
+- **ESLint** with enterprise rules
+- **Prettier** code formatting
+- **Husky** Git hooks
+- **Commitizen** standardized commits
 
-- **Husky** - Git hooks for quality gates
-- **lint-staged** - Pre-commit code quality checks
-- **Commitizen** - Standardized commit messages
-- **Commitlint** - Conventional commit validation
+### 🚀 **DevOps & CI/CD**
 
-### 🚀 CI/CD & Deployment
+- **GitHub Actions** workflows
+- **Automated testing** pipeline
+- **Security audits**
+- **Vercel deployment** ready
+- **Performance monitoring**
 
-- **GitHub Actions** - Automated testing and deployment
-- **Quality Gates** - Automated code quality checks
-- **Security Audits** - Dependency vulnerability scanning
-- **Performance Testing** - Lighthouse CI integration
-- **Auto-deployment** - Vercel integration
+### 🎯 **Developer Experience**
 
-## 📋 Prerequisites
+- **VS Code** configuration
+- **Action Buttons** for quick tasks
+- **Hot reload** development
+- **Type checking** on save
+- **Auto-formatting** on save
 
-- **Node.js** >= 18.0.0
-- **npm** >= 8.0.0
-- **Git** >= 2.0.0
+## 🚀 Quick Start
 
-## 🛠️ Getting Started
+### 1. Use This Template
 
-### 1. Install Dependencies
+Click **"Use this template"** button above or:
 
 ```bash
+# Clone and setup new project
+npx degit 33SLueck/next-fortress my-new-project
+cd my-new-project
 npm install
 ```
 
-### 2. Setup Development Environment
+### 2. Initialize Development
 
 ```bash
-# Initialize Husky hooks
+# Setup Git hooks
 npm run prepare
 
-# Run quality checks
-npm run quality
-```
-
-### 3. Start Development Server
-
-```bash
+# Start development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+### 3. Customize Your Project
 
-## 📜 Available Scripts
+See **[📋 TEMPLATE_SETUP.md](./TEMPLATE_SETUP.md)** for detailed setup instructions.
+
+## 📋 Template Setup Guide
+
+**👉 [Complete Template Setup Guide](./TEMPLATE_SETUP.md)**
+
+This comprehensive guide covers:
+
+- Project customization
+- GitHub repository setup
+- Deployment configuration
+- Team collaboration setup
+- Best practices
+
+## 🛠️ Available Scripts
+
+| Command                 | Description                   |
+| ----------------------- | ----------------------------- |
+| `npm run dev`           | Start development server      |
+| `npm run build`         | Build for production          |
+| `npm run start`         | Start production server       |
+| `npm run quality`       | Run all quality checks        |
+| `npm run test:run`      | Run tests once                |
+| `npm run test:watch`    | Run tests in watch mode       |
+| `npm run test:coverage` | Generate test coverage        |
+| `npm run lint`          | Lint code                     |
+| `npm run lint:fix`      | Fix linting issues            |
+| `npm run format`        | Format code                   |
+| `npm run type-check`    | TypeScript checking           |
+| `npm run commit`        | Guided commit with Commitizen |
 
 ### Development
 
