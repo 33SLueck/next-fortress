@@ -1,0 +1,149 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  // File & Search Exclusions
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/dist": true,
+    "**/coverage": true,
+    "**/.git": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/dist": true,
+    "**/coverage": true,
+    "**/*.log": true,
+    "**/package-lock.json": true
+  },
+
+  // TypeScript Settings
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.suggest.autoImports": true,
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+
+  // ESLint Settings
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.run": "onSave",
+
+  // Tailwind CSS Settings
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+
+  // Emmet Settings
+  "emmet.includeLanguages": {
+    "typescript": "html",
+    "typescriptreact": "html"
+  },
+
+  // CSS Validation (disable for Tailwind)
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+
+  // File Associations
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  // Task Configuration
+  "task.autoDetect": "on",
+  "task.showDecorations": true,
+  "task.problemMatchers.neverPrompt": {
+    "shell": true
+  },
+
+  // Action Buttons Extension Configuration
+  "actionButtons": {
+    "reloadButton": "🔄",
+    "commands": [
+      {
+        "name": "🚀 Dev",
+        "color": "#00ff00",
+        "singleInstance": true,
+        "command": "npm run dev",
+        "tooltip": "Start Development Server"
+      },
+      {
+        "name": "⚡ QA",
+        "color": "#ffff00",
+        "command": "npm run quality",
+        "tooltip": "Run All Quality Checks"
+      },
+      {
+        "name": "🧪 Test",
+        "color": "#00ffff",
+        "command": "npm run test:run",
+        "tooltip": "Run Tests"
+      },
+      {
+        "name": "👀 Watch",
+        "color": "#ff00ff",
+        "singleInstance": true,
+        "command": "npm run test:watch",
+        "tooltip": "Test Watch Mode"
+      },
+      {
+        "name": "✨ Format",
+        "color": "#ffffff",
+        "command": "npm run format",
+        "tooltip": "Format Code"
+      },
+      {
+        "name": "🔧 Fix",
+        "color": "#ff8800",
+        "command": "npm run lint:fix",
+        "tooltip": "Lint & Fix"
+      },
+      {
+        "name": "🏗️ Build",
+        "color": "#0088ff",
+        "command": "npm run build",
+        "tooltip": "Build Production"
+      },
+      {
+        "name": "📝 Commit",
+        "color": "#88ff00",
+        "command": "npm run commit",
+        "tooltip": "Guided Commit"
+      }
+    ]
+  }, // Terminal Configuration
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.fontSize": 14,
+
+  // Explorer Settings
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // Git Settings
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  // Workbench Settings
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Performance
+  "extensions.ignoreRecommendations": false,
+  "telemetry.telemetryLevel": "off"
+}

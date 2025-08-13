@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-next",
+    "dbaeumer.vscode-eslint",
+    "vitest.explorer",
+    "ms-playwright.playwright",
+    "gruntfuggly.todo-tree",
+    "christian-kohler.path-intellisense",
+    "formulahendry.auto-rename-tag",
+    "ms-vscode.vscode-json",
+    "github.vscode-github-actions",
+    "github.copilot",
+    "seunlanlege.action-buttons"
+  ]
+}
